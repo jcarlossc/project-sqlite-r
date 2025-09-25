@@ -1,7 +1,7 @@
 # Arquivo responsável por criar uma tabela no SQLite.
 
 # Criar tabela de exemplo (Usuários).
-create_tables <- function(con) {
+criar_tabela <- function(con) {
   query <- "
   CREATE TABLE IF NOT EXISTS usuarios (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
