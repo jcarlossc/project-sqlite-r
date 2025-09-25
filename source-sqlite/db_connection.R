@@ -14,7 +14,7 @@ conectar_db <- function(db_file = "exemplo.db") {
   return(con)
 }
 
-# Função para encerrar conexão
+# Função para encerrar conexão.
 desconectar_db <- function(con) {
   dbDisconnect(con)
 }
